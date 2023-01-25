@@ -105,6 +105,10 @@ public class ISBNValidator {
         }
     }
 
+    /**
+     *Main method of the BaseConverter class
+      * @param args command-Line arguments, if needed
+     */
     public static void main(String[] args){
         ISBNValidator app = new ISBNValidator ();
         System.out.println("* ISBN Validator Program *");
